@@ -1,21 +1,10 @@
+import { HistoryData } from './types'
 
-'use client'
-import { useState } from 'react'
-import { ToListenData } from './types'
-import RatingModal from './RatingModal'
-import static_data from '../../public/to_listen_test_data.json'
-
-interface ToListenProps {
-    toListenData: ToListenData[];
-    onListened: (track: ToListenData, rating: number) => void;
+interface HistoryProps {
+  historyData: HistoryData[];
 }
 
-export default function ToListen({ toListenData, onListened }: ToListenProps) {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    const handleOpenModal = () => setIsModalOpen(true);
-    const handleCloseModal = () => setIsModalOpen(false);
-
+export default function History({ historyData }: HistoryProps) {
     return (
         <div
             className="max-h-[70vh] overflow-y-auto w-full"
@@ -27,9 +16,9 @@ export default function ToListen({ toListenData, onListened }: ToListenProps) {
                         <span className="border-r border-gray-300 flex items-center px-2">Title</span>
                         <span className="border-r border-gray-300 flex items-center px-2">Album</span>
                         <span className="border-r border-gray-300 flex items-center px-2">Artist(s)</span>
-                        <span className="flex items-center justify-center px-2">Listened</span>
+                        <span className="flex items-center justify-center px-2">Rating</span>
                     </li>
-                    {toListenData.map((track) => (
+                    {historyData.map((track) => (
                         <li
                             key={track.spotify.id}
                             className="grid grid-cols-4 p-2 border-b border-gray-300"
@@ -42,16 +31,11 @@ export default function ToListen({ toListenData, onListened }: ToListenProps) {
                                     : track.artist}
                             </span>
                             <span className="flex items-center justify-center px-2">
-                                <button
-                                    className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
-                                    onClick={() => onListened(track, 90)}>
-                                    Listened
-                                </button>
+                                {track.rating}
                             </span>
                         </li>
                     ))}
                 </ol>
-                <RatingModal isOpen={isModalOpen} onClose={handleCloseModal}> Test. This is a modal. </RatingModal>
             </div>
         </div>
     )

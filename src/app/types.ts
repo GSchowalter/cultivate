@@ -1,4 +1,4 @@
-export type SpotifyData = {
+export type ToListenData = {
     title: string;
     album: string;
     artist: string | string[];
@@ -7,3 +7,14 @@ export type SpotifyData = {
         uri: string;
     };
 };
+
+export type HistoryData = {
+    title: string;
+    album: string;
+    artist: string | string[];
+    spotify: {
+        id: string;
+        uri: string;
+    };
+    rating: number;
+}
