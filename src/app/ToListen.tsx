@@ -51,7 +51,7 @@ export default function ToListen({ toListenData, onListened }: ToListenProps) {
                         </li>
                     ))}
                 </ol>
-                <RatingModal isOpen={isModalOpen} onClose={handleCloseModal}> Test. This is a modal. </RatingModal>
+                
             </div>
         </div>
     )

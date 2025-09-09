@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "username": "gschowalter",
+        "to_listen_list": [
+            {
+                "title": "Blinding Lights",
+                "album": "After Hours",
+                "artist": "The Weekend",
+                "spotify": {
+                    "id": "0VjIjW4GlUZAMYd2vXMi3b",
+                    "uri": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b"
+                }
+            },
+            {
+                "title": "Shape of You",
+                "album": "÷(Deluxe)",
+                "artist": "Ed Sheeran",
+                "spotify": {
+                    "id": "7qiZfU4dY1lWllzX7mPBI3",
+                    "uri": "https://open.spotify.com/track/7qiZfU4dY1lWllzX7mPBI3"
+                }
+            },
+            {
+                "title": "Starboy",
+                "album": "Starboy",
+                "artist": [
+                    "The Weekend",
+                    "Daft Punk"
+                ],
+                "spotify": {
+                    "id": "5aAx2yezTd8zXrkmtKl66Z",
+                    "uri": "https://open.spotify.com/track/5aAx2yezTd8zXrkmtKl66Z"
+                }
+            },
+            {
+                "title": "Someone You Loved",
+                "album": "Divinely Uninspired To A Hellish Extent",
+                "artist": "Lewis Capaldi",
+                "spotify": {
+                    "id": "7qEHsqek33rTcFNT9PFqLf",
+                    "uri": "https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf"
+                }
+            },
+            {
+                "title": "As It Was",
+                "album": "Harry's House",
+                "artist": "Harry Styles",
+                "spotify": {
+                    "id": "4Dvkj6JhhA12EX05fT7y2e",
+                    "uri": "https://open.spotify.com/track/4Dvkj6JhhA12EX05fT7y2e"
+                }
+            }
+        ],
+        "listen_history_list": [
+            {
+                "title": "Sweater Weather",
+                "album": "I Love You.",
+                "artist": "The Neighbourhood",
+                "spotify": {
+                    "id": "2QjOHCTQ1Jl3zawyYOpxh6",
+                    "uri": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6"
+                },
+                "rating": 89
+            },
+            {
+                "title": "Sunflower - Spiredr-Man: Intro the Spider-Verse",
+                "album": "SpiderMain: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
+                "artist": [
+                    "Post Malone",
+                    "Swae lee"
+                ],
+                "spotify": {
+                    "id": "3KkXRkHbMCARz0aVfEt68P",
+                    "uri": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P"
+                },
+                "rating": 90
+            },
+            {
+                "title": "One Dance",
+                "album": "Views",
+                "artist": [
+                    "Drake",
+                    "Wizkid",
+                    "Kyla"
+                ],
+                "spotify": {
+                    "id": "1xznGGDReH1oQq0xzbwXa3",
+                    "uri": "https://open.spotify.com/track/1xznGGDReH1oQq0xzbwXa3"
+                },
+                "rating": 50
+            }
+        ]
+    }
+]
