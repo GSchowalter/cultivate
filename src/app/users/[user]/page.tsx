@@ -15,7 +15,12 @@ export default async function User({
     console.log(user)
 
     // Get user data
-    const {id, username, to_listen_list, listen_history_list} = get_user_data(user)
+    const {id, username, to_consume, history_list} = get_user_data(user)
+
+
+    const onListened = () => {
+        return 
+    }
 
     return (
         <>
@@ -25,19 +30,29 @@ export default async function User({
 
             {/*If not authed */}
             <form>
-                <h1>Recommend something</h1>
+                <h1>Recommend something to {username} </h1>
                 <label>Enter your name:
                     <input type="text" />
                 </label>
                 {/* Eventually this will search for spotify songs */}
-                <label>Song:
+                <label>Media type:
+                    <select>
+                        <option value="song">Song</option>
+                        <option value="movie">Movie</option>
+                        <option value="book">Book</option>
+                        <option value="show">Show</option>
+                        <option value="video">Video</option>
+                    </select>
+                </label>
+                <label>Title:
                     <input type="text" />
+                </label>
+                <label>Link:
+                    <input type="url" />
                 </label>
                 <input type="submit" />
             </form>
-            <p>
-                { username }
-            </p>
+            
         </>
     )
 }

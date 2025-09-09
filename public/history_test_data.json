@@ -1,32 +1,20 @@
 [
     {
-        "title": "Sweater Weather",
-        "album": "I Love You.",
-        "artist": "The Neighbourhood",
-        "spotify": {
-            "id": "2QjOHCTQ1Jl3zawyYOpxh6",
-            "uri": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6"
+        "media_item": {
+            "recomender": "Taomeaba",
+            "media_type": "song",
+            "title": "Sweater Weather",    
+            "link": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6"
         },
         "rating": 89
     },
     {
-        "title": "Sunflower - Spiredr-Man: Intro the Spider-Verse",
-        "album": "SpiderMain: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
-        "artist": ["Post Malone", "Swae lee"],
-        "spotify": {
-            "id": "3KkXRkHbMCARz0aVfEt68P",
-            "uri": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P"
+        "media_item": {
+            "recomender": "Astrophage",
+            "media_type": "song",
+            "title": "Sunflower - Spiredr-Man: Intro the Spider-Verse",    
+            "link": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P"
         },
         "rating": 90
-    },
-    {
-        "title": "One Dance",
-        "album": "Views",
-        "artist": ["Drake", "Wizkid", "Kyla"],
-        "spotify": {
-            "id": "1xznGGDReH1oQq0xzbwXa3",
-            "uri": "https://open.spotify.com/track/1xznGGDReH1oQq0xzbwXa3"
-        },
-        "rating": 50
     }
 ]
